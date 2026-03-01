@@ -1,0 +1,33 @@
+Routerek
+A routerek olyan hálózati eszközök, amelyek különböző hálózatok között továbbítják az adatcsomagokat, útvonalválasztási táblák alapján. Képesek IP‑címek alapján dönteni, támogatják a dinamikus routing protokollokat (pl. RIP, OSPF), és gyakran tartalmaznak biztonsági funkciókat, mint az ACL-ek. A Packet Tracerben a routerek konfigurálhatók CLI-n keresztül, így valós Cisco IOS parancsokkal gyakorolható a hálózatépítés.
+
+🔗 Switchek
+A switchek egy hálózaton belül, azonos alhálózaton lévő eszközök között továbbítják a forgalmat, MAC‑cím táblák alapján. A Packet Tracerben a switchek támogatják a VLAN-ok létrehozását, trunk kapcsolatokat, STP-t és más réteg 2-es funkciókat. A fejlettebb modellek réteg 3-as funkciókat is kínálnak, például inter‑VLAN routingot.
+
+🖥️ Szerverek
+A Packet Tracer szerverei többféle szolgáltatást tudnak biztosítani, például:
+DHCP – IP-címek automatikus kiosztása
+DNS – domain nevek feloldása
+HTTP/HTTPS – webkiszolgálás
+FTP – fájlátvitel
+Email – levelezési szolgáltatás
+Ezekkel a funkciókkal könnyen modellezhető egy vállalati vagy oktatási hálózat működése.
+
+📦 Mi az a Packet Tracer?
+A Cisco Packet Tracer egy oktatási célú hálózatszimulátor, amely lehetővé teszi hálózatok vizuális megtervezését, konfigurálását és tesztelését fizikai eszközök nélkül. Támogatja a Cisco IOS parancsokat, animált csomagkövetést biztosít, és ideális a CCNA‑szintű tanuláshoz, gyakorláshoz és hibakereséshez.
+
+ — 18:22
+Packet Tracerben található szerverek nemcsak szolgáltatásokat biztosítanak, hanem a hálózat működésének központi elemei, amelyek a kliensgépek kiszolgálását és a hálózati folyamatok automatizálását teszik lehetővé. A szerverek egy központi operációs rendszerrel működnek, amelyben különböző modulok kapcsolhatók be vagy ki (DHCP, DNS, HTTP, FTP stb.), így egyetlen eszköz több hálózati szerepet is elláthat. A szerverek képesek adatok tárolására, weboldalak kiszolgálására, felhasználók kezelésére, levelezés biztosítására, és gyakran ők felelnek a hálózat automatizált működéséért (pl. IP‑cím kiosztás, névfeloldás).
+
+ — 19:43
+📡 Wi‑Fi routerek
+A Packet Tracer Wi‑Fi routerei egyszerre látnak el vezeték nélküli hozzáférési pont és router funkciót. Képesek több SSID-t, biztonsági beállítást (WPA2), DHCP‑kiszolgálást és NAT‑ot biztosítani, így a vezeték nélküli kliensek ugyanúgy csatlakozhatnak a hálózathoz, mint a valós életben. A Wi‑Fi routerek fontos szerepe, hogy modellezik a modern otthoni és kisebb irodai hálózatok működését, ahol a vezeték nélküli eszközök dominálnak.
+
+🖥️ PC-k
+A Packet Tracer PC‑i egyszerű kliensgépek, amelyekkel IP‑címeket állíthatunk be, pingelhetünk, böngészhetünk, fájlokat tölthetünk le, és különböző hálózati szolgáltatásokat tesztelhetünk. A PC-k segítségével ellenőrizhető a hálózat működése, a kapcsolat stabilitása, valamint a szerverek és routerek konfigurációjának helyessége. A PC-k gyakran a hálózat végpontjai, így jól szemléltetik a felhasználói oldal működését.
+
+💻 Laptopok
+A laptopok funkciójukban hasonlóak a PC‑khez, de kiegészülnek vezeték nélküli csatlakozási lehetőséggel, így Wi‑Fi hálózatokhoz is kapcsolódhatnak. Ez különösen hasznos a mobil kliensek szimulálásakor, például amikor egy vállalati vagy otthoni Wi‑Fi hálózatot tesztelünk. A laptopok mozgathatók a Packet Tracer térképén, így vizuálisan is megjeleníthető a vezeték nélküli lefedettség.
+
+📱 Telefonok
+A Packet Tracerben található okostelefonok egyszerűsített mobil kliensek, amelyek Wi‑Fi kapcsolaton keresztül csatlakoznak a hálózathoz. Képesek böngészni, e‑mailt küldeni, fájlokat letölteni, és használni a szerverek által biztosított szolgáltatásokat (pl. DNS, DHCP, HTTP). A telefonok segítségével modellezhető a modern hálózatok egyik legfontosabb eleme: a mobil eszközök folyamatos jelenléte.
